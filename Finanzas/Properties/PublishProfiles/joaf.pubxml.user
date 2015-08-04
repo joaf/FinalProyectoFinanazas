@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\jose ariel\Desktop\FinanzasWepApp</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="api/css/font-awesome.css">
+      <publishTime>08/01/2015 21:50:44</publishTime>
+    </File>
+    <File Include="api/css/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>08/01/2015 21:50:44</publishTime>
+    </File>
+    <File Include="api/css/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>08/01/2015 21:50:44</publishTime>
+    </File>
+    <File Include="api/css/jquery-ui.css">
+      <publishTime>08/01/2015 21:50:44</publishTime>
+    </File>
+    <File Include="api/css/ref.css">
+      <publishTime>08/01/2015 21:50:44</publishTime>
+    </File>
+    <File Include="api/fonts/fontawesome-webfont.woff">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-114x114.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-120x120.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-144x144.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-152x152.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-180x180.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-57x57.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-60x60.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-72x72.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/apple-touch-icon-76x76.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/favicon-160x160.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/favicon-16x16.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/favicon-192x192.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/favicon-32x32.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/favicon-96x96.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/Highcharts.svg">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/splash.svg">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/images/sprite.png">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/js/highcharts.json">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/js/jquery-ui.min.js">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/js/jquery.min.js">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="api/js/ref.js">
+      <publishTime>08/01/2015 21:51:48</publishTime>
+    </File>
+    <File Include="bin/BLL.dll">
+      <publishTime>08/03/2015 21:13:06</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>08/03/2015 01:12:21</publishTime>
+    </File>
+    <File Include="bin/Finanzas.dll">
+      <publishTime>08/03/2015 21:13:06</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fCategorias.aspx">
+      <publishTime>08/02/2015 21:38:17</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fCobrosCxC.aspx">
+      <publishTime>08/02/2015 22:50:53</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fCuentas.aspx">
+      <publishTime>08/02/2015 21:40:52</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fCxC.aspx">
+      <publishTime>08/02/2015 21:44:17</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fCxP.aspx">
+      <publishTime>08/02/2015 21:46:45</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fGastos.aspx">
+      <publishTime>08/02/2015 22:07:30</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fIngresos.aspx">
+      <publishTime>08/02/2015 22:10:30</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fPagosCxP.aspx">
+      <publishTime>08/02/2015 22:52:33</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fPresupuesto.aspx">
+      <publishTime>08/02/2015 23:02:38</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fTransferencias.aspx">
+      <publishTime>08/03/2015 21:06:13</publishTime>
+    </File>
+    <File Include="ControlPanel/Consultas/fUsuarios.aspx">
+      <publishTime>08/02/2015 23:06:15</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/App_LocalResources/rCategorias.aspx.EN.resx">
+      <publishTime>07/29/2015 15:25:36</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/App_LocalResources/rCategorias.ES.aspx.resx">
+      <publishTime>07/29/2015 15:21:13</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rCategorias.aspx">
+      <publishTime>08/03/2015 12:52:15</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rCobroCxC.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rCuentas.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rCxC.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rCxP.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rGastos.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rIngresos.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rPagosCxP.aspx">
+      <publishTime>08/03/2015 20:29:07</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rPresupuesto.aspx">
+      <publishTime>08/03/2015 20:59:03</publishTime>
+    </File>
+    <File Include="ControlPanel/Registros/rTransferencias.aspx">
+      <publishTime>08/03/2015 12:54:54</publishTime>
+    </File>
+    <File Include="ControlPanel/Reportes/vCobroCxC.aspx">
+      <publishTime>08/02/2015 00:31:20</publishTime>
+    </File>
+    <File Include="ControlPanel/Reportes/vTransferencias.aspx">
+      <publishTime>08/02/2015 00:28:35</publishTime>
+    </File>
+    <File Include="Css/Bootstrap/bootstrap.min.css">
+      <publishTime>08/03/2015 13:41:37</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.linear.columnar.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.linear.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.min.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.upward.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.vertical.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/dropdown.vertical.rtl.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/adobe.com/default.advanced.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/adobe.com/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/default/default.advanced.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/default/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/default/default.linear.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/default/default.ultimate.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/default/default.ultimate.linear.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/flickr.com/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/flickr.com/default.ultimate.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/flickr.com/default.ultimate.linear.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/flickr.com/default.ultimate.upward.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/lwis.celebrity/default.advanced.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/lwis.celebrity/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/mtv.com/default.advanced.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/mtv.com/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/mtv.com/default.ultimate.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/nvidia.com/default.advanced.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/nvidia.com/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/vimeo.com/default.advanced.css">
+      <publishTime>08/02/2015 11:50:49</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/vimeo.com/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/dropdown/themes/_template/default.css">
+      <publishTime>07/03/2015 02:08:06</publishTime>
+    </File>
+    <File Include="Css/css/helper.css">
+      <publishTime>08/02/2015 23:17:54</publishTime>
+    </File>
+    <File Include="Css/css/horizontal-centering.css">
+      <publishTime>08/03/2015 09:57:48</publishTime>
+    </File>
+    <File Include="Css/menu.css">
+      <publishTime>07/03/2015 11:52:36</publishTime>
+    </File>
+    <File Include="Css/signin.css">
+      <publishTime>08/01/2015 19:25:13</publishTime>
+    </File>
+    <File Include="Css/styles.css">
+      <publishTime>08/03/2015 13:44:42</publishTime>
+    </File>
+    <File Include="Css/StyleSheet1.css">
+      <publishTime>07/27/2015 23:47:47</publishTime>
+    </File>
+    <File Include="Css/themes/adobe.com/default.advanced.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/adobe.com/default.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/default/default.advanced.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/default/default.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/default/default.linear.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/default/default.ultimate.css">
+      <publishTime>07/03/2015 02:05:55</publishTime>
+    </File>
+    <File Include="Css/themes/default/default.ultimate.linear.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/flickr.com/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/flickr.com/default.ultimate.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/flickr.com/default.ultimate.linear.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/flickr.com/default.ultimate.upward.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/lwis.celebrity/default.advanced.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/lwis.celebrity/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/mtv.com/default.advanced.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/mtv.com/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/mtv.com/default.ultimate.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/nvidia.com/default.advanced.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/nvidia.com/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/vimeo.com/default.advanced.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/vimeo.com/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="Css/themes/_template/default.css">
+      <publishTime>07/03/2015 02:05:56</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>08/03/2015 13:45:27</publishTime>
+    </File>
+    <File Include="icono.mini.css">
+      <publishTime>07/21/2015 01:26:23</publishTime>
+    </File>
+    <File Include="Img/cabecera4 copy.jpg">
+      <publishTime>07/20/2015 00:29:11</publishTime>
+    </File>
+    <File Include="Img/finanzas.jpg">
+      <publishTime>08/01/2015 00:45:36</publishTime>
+    </File>
+    <File Include="Img/fondosas.jpg">
+      <publishTime>07/03/2015 12:50:03</publishTime>
+    </File>
+    <File Include="Img/navigation.jpg">
+      <publishTime>07/03/2015 11:22:18</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>08/03/2015 11:12:44</publishTime>
+    </File>
+    <File Include="js/jquery.jshowoff.min.js">
+      <publishTime>08/01/2015 00:32:59</publishTime>
+    </File>
+    <File Include="js/jshowoff.css">
+      <publishTime>08/01/2015 00:32:59</publishTime>
+    </File>
+    <File Include="LogOn.aspx">
+      <publishTime>08/02/2015 23:58:52</publishTime>
+    </File>
+    <File Include="rUsuarios.aspx">
+      <publishTime>08/03/2015 20:29:07</publishTime>
+    </File>
+    <File Include="Scripts/JavaScript1.js">
+      <publishTime>08/03/2015 11:27:15</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.11.3.min.js">
+      <publishTime>07/27/2015 23:42:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.3.min.js">
+      <publishTime>07/24/2015 00:30:48</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.4.min.js">
+      <publishTime>08/03/2015 11:04:16</publishTime>
+    </File>
+    <File Include="Scripts/prefix-free.js">
+      <publishTime>07/24/2015 00:30:48</publishTime>
+    </File>
+    <File Include="Scripts/toastr.min.js">
+      <publishTime>07/24/2015 00:30:48</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>08/03/2015 14:27:40</publishTime>
+    </File>
+    <File Include="vHistoria.aspx">
+      <publishTime>08/03/2015 13:47:05</publishTime>
+    </File>
+    <File Include="vMision.aspx">
+      <publishTime>08/03/2015 13:47:05</publishTime>
+    </File>
+    <File Include="vVision.aspx">
+      <publishTime>08/03/2015 13:47:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/03/2015 01:12:22</publishTime>
+    </File>
+    <File Include="WebForm1.aspx">
+      <publishTime>08/02/2015 18:41:57</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+e:\visual studio 2013\Projects\Finanzas\BLL\bin\Release\BLL.dll
+e:\visual studio 2013\Projects\Finanzas\BLL\bin\Release\BLL.pdb
+e:\visual studio 2013\Projects\Finanzas\BLL\bin\Release\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\BLL\bin\Release\DAL.pdb
+e:\visual studio 2013\Projects\Finanzas\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+e:\visual studio 2013\Projects\Finanzas\BLL\obj\Release\BLL.dll
+e:\visual studio 2013\Projects\Finanzas\BLL\obj\Release\BLL.pdb

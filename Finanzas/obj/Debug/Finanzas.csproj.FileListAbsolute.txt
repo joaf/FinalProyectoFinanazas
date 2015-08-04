@@ -1,0 +1,10 @@
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\Finanzas.dll.config
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\Finanzas.dll
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\Finanzas.pdb
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\BLL.dll
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\BLL.pdb
+e:\visual studio 2013\Projects\Finanzas\Finanzas\bin\DAL.pdb
+e:\visual studio 2013\Projects\Finanzas\Finanzas\obj\Debug\Finanzas.csprojResolveAssemblyReference.cache
+e:\visual studio 2013\Projects\Finanzas\Finanzas\obj\Debug\Finanzas.dll
+e:\visual studio 2013\Projects\Finanzas\Finanzas\obj\Debug\Finanzas.pdb

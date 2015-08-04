@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{859DB267-2D89-4F7C-8C9A-706F373D61A4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Finanzas</RootNamespace>
+    <AssemblyName>Finanzas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlPanel\Consultas\fCategorias.aspx" />
+    <Content Include="ControlPanel\Consultas\fCobrosCxC.aspx" />
+    <Content Include="ControlPanel\Consultas\fCuentas.aspx" />
+    <Content Include="ControlPanel\Consultas\fCxC.aspx" />
+    <Content Include="ControlPanel\Consultas\fCxP.aspx" />
+    <Content Include="ControlPanel\Consultas\fGastos.aspx" />
+    <Content Include="ControlPanel\Consultas\fIngresos.aspx" />
+    <Content Include="ControlPanel\Consultas\fPagosCxP.aspx" />
+    <Content Include="ControlPanel\Consultas\fPresupuesto.aspx" />
+    <Content Include="ControlPanel\Consultas\fTransferencias.aspx" />
+    <Content Include="ControlPanel\Consultas\fUsuarios.aspx" />
+    <Content Include="ControlPanel\Registros\rCxC.aspx" />
+    <Content Include="ControlPanel\Registros\rCxP.aspx" />
+    <Content Include="ControlPanel\Registros\rGastos.aspx" />
+    <Content Include="ControlPanel\Registros\rIngresos.aspx" />
+    <Content Include="ControlPanel\Registros\rPagosCxP.aspx" />
+    <Content Include="ControlPanel\Registros\rPresupuesto.aspx" />
+    <Content Include="ControlPanel\Registros\rTransferencias.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="rUsuarios.aspx" />
+    <Content Include="ControlPanel\Reportes\vCobroCxC.aspx" />
+    <Content Include="ControlPanel\Reportes\vTransferencias.aspx" />
+    <Content Include="Css\Bootstrap\bootstrap.min.css" />
+    <Content Include="Css\signin.css" />
+    <Content Include="Css\StyleSheet1.css" />
+    <Content Include="default.aspx" />
+    <Content Include="icono.mini.css" />
+    <Content Include="Img\cabecera4 copy.jpg" />
+    <Content Include="Img\finanzas.jpg" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="ControlPanel\Registros\rCategorias.aspx" />
+    <Content Include="ControlPanel\Registros\rCobroCxC.aspx" />
+    <Content Include="ControlPanel\Registros\rCuentas.aspx" />
+    <Content Include="Css\styles.css" />
+    <Content Include="js\jquery.jshowoff.min.js" />
+    <Content Include="js\jshowoff.css" />
+    <Content Include="LogOn.aspx" />
+    <Content Include="Scripts\JavaScript1.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\prefix-free.js" />
+    <Content Include="vHistoria.aspx" />
+    <Content Include="vMision.aspx" />
+    <Content Include="vVision.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlPanel\Consultas\fCategorias.aspx.cs">
+      <DependentUpon>fCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCategorias.aspx.designer.cs">
+      <DependentUpon>fCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCobrosCxC.aspx.cs">
+      <DependentUpon>fCobrosCxC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCobrosCxC.aspx.designer.cs">
+      <DependentUpon>fCobrosCxC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCuentas.aspx.cs">
+      <DependentUpon>fCuentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCuentas.aspx.designer.cs">
+      <DependentUpon>fCuentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCxC.aspx.cs">
+      <DependentUpon>fCxC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCxC.aspx.designer.cs">
+      <DependentUpon>fCxC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCxP.aspx.cs">
+      <DependentUpon>fCxP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fCxP.aspx.designer.cs">
+      <DependentUpon>fCxP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fGastos.aspx.cs">
+      <DependentUpon>fGastos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fGastos.aspx.designer.cs">
+      <DependentUpon>fGastos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fIngresos.aspx.cs">
+      <DependentUpon>fIngresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fIngresos.aspx.designer.cs">
+      <DependentUpon>fIngresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fPagosCxP.aspx.cs">
+      <DependentUpon>fPagosCxP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fPagosCxP.aspx.designer.cs">
+      <DependentUpon>fPagosCxP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fPresupuesto.aspx.cs">
+      <DependentUpon>fPresupuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fPresupuesto.aspx.designer.cs">
+      <DependentUpon>fPresupuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fTransferencias.aspx.cs">
+      <DependentUpon>fTransferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fTransferencias.aspx.designer.cs">
+      <DependentUpon>fTransferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fUsuarios.aspx.cs">
+      <DependentUpon>fUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Consultas\fUsuarios.aspx.designer.cs">
+      <DependentUpon>fUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCxC.aspx.cs">
+      <DependentUpon>rCxC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCxC.aspx.designer.cs">
+      <DependentUpon>rCxC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCxP.aspx.cs">
+      <DependentUpon>rCxP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCxP.aspx.designer.cs">
+      <DependentUpon>rCxP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rGastos.aspx.cs">
+      <DependentUpon>rGastos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rGastos.aspx.designer.cs">
+      <DependentUpon>rGastos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rIngresos.aspx.cs">
+      <DependentUpon>rIngresos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rIngresos.aspx.designer.cs">
+      <DependentUpon>rIngresos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rPagosCxP.aspx.cs">
+      <DependentUpon>rPagosCxP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rPagosCxP.aspx.designer.cs">
+      <DependentUpon>rPagosCxP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rPresupuesto.aspx.cs">
+      <DependentUpon>rPresupuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rPresupuesto.aspx.designer.cs">
+      <DependentUpon>rPresupuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rTransferencias.aspx.cs">
+      <DependentUpon>rTransferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rTransferencias.aspx.designer.cs">
+      <DependentUpon>rTransferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="rUsuarios.aspx.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rUsuarios.aspx.designer.cs">
+      <DependentUpon>rUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Reportes\vCobroCxC.aspx.cs">
+      <DependentUpon>vCobroCxC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Reportes\vCobroCxC.aspx.designer.cs">
+      <DependentUpon>vCobroCxC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Reportes\vTransferencias.aspx.cs">
+      <DependentUpon>vTransferencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Reportes\vTransferencias.aspx.designer.cs">
+      <DependentUpon>vTransferencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogOn.aspx.cs">
+      <DependentUpon>LogOn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOn.aspx.designer.cs">
+      <DependentUpon>LogOn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ControlPanel\Registros\rCategorias.aspx.cs">
+      <DependentUpon>rCategorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCategorias.aspx.designer.cs">
+      <DependentUpon>rCategorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCobroCxC.aspx.cs">
+      <DependentUpon>rCobroCxC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCobroCxC.aspx.designer.cs">
+      <DependentUpon>rCobroCxC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCuentas.aspx.cs">
+      <DependentUpon>rCuentas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlPanel\Registros\rCuentas.aspx.designer.cs">
+      <DependentUpon>rCuentas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="vHistoria.aspx.cs">
+      <DependentUpon>vHistoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vHistoria.aspx.designer.cs">
+      <DependentUpon>vHistoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vMision.aspx.cs">
+      <DependentUpon>vMision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vMision.aspx.designer.cs">
+      <DependentUpon>vMision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vVision.aspx.cs">
+      <DependentUpon>vVision.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vVision.aspx.designer.cs">
+      <DependentUpon>vVision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+    <None Include="Properties\PublishProfiles\joaf.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{fba72d76-3beb-4eb9-960f-5a23f30b22c7}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlPanel\Registros\App_LocalResources\rCategorias.aspx.EN.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlPanel\Registros\App_LocalResources\rCategorias.ES.aspx.resx" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49802</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49802/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

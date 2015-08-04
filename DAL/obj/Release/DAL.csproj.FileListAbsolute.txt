@@ -1,0 +1,4 @@
+e:\visual studio 2013\Projects\Finanzas\DAL\bin\Release\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\DAL\bin\Release\DAL.pdb
+e:\visual studio 2013\Projects\Finanzas\DAL\obj\Release\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\DAL\obj\Release\DAL.pdb

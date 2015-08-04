@@ -1,0 +1,139 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Finanzas.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+
+    <title>Finanzas JOAF</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <img src="/Img/cabecera4%20copy.jpg" style="width: 100%; height: 162px;" />
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/default.aspx">Inicio</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Registros <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/ControlPanel/Registros/rCategorias.aspx">Categorias</a></li>
+                                <li><a href="/ControlPanel/Registros/rCobroCxC.aspx">Cobro</a></li>
+                                <li><a href="/ControlPanel/Registros/rCuentas.aspx">Cuentas</a></li>
+                                <li><a href="/ControlPanel/Registros/rCxC.aspx">Cuentas Por Cobrar</a></li>
+                                <li><a href="/ControlPanel/Registros/rCxP.aspx">Cuentas Por Pagar</a></li>
+                                <li><a href="/ControlPanel/Registros/rGastos.aspx">Gastos</a></li>
+                                <li><a href="/ControlPanel/Registros/rIngresos.aspx">Ingresos</a></li>
+                                <li><a href="/ControlPanel/Registros/rPagosCxP.aspx">Pagos</a></li>
+                                <li><a href="/ControlPanel/Registros/rPresupuesto.aspx">Presupuesto</a></li>
+                                <li><a href="/ControlPanel/Registros/rTransferencias.aspx">Transferencias</a></li>
+                                <li><a href="/rUsuarios.aspx">Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Consultas <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="first"><a href="/ControlPanel/Consultas/fCategorias.aspx">Categorias</a></li>
+                                <li><a href="/ControlPanel/Consultas/fCobrosCxC.aspx">Cobro</a></li>
+                                <li><a href="/ControlPanel/Consultas/fCuentas.aspx">Cuentas</a></li>
+                                <li><a href="/ControlPanel/Consultas/fCxC.aspx">Cuentas Por Cobrar</a></li>
+                                <li><a href="/ControlPanel/Consultas/fCxP.aspx">Cuentas Por Pagar</a></li>
+                                <li><a href="/ControlPanel/Consultas/fGastos.aspx">Gastos</a></li>
+                                <li><a href="/ControlPanel/Consultas/fIngresos.aspx">Ingresos</a></li>
+                                <li><a href="/ControlPanel/Consultas/fPagosCxP.aspx">Pagos</a></li>
+                                <li><a href="/ControlPanel/Consultas/fPresupuesto.aspx">Presupuesto</a></li>
+                                <li><a href="/ControlPanel/Consultas/fTransferencias.aspx">Transferencias</a></li>
+                                <li><a href="/ControlPanel/Consultas/fUsuarios.aspx">Usuarios</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reportes <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="first"><a href="#">Gastos</a></li>
+                                <li><a href="/ControlPanel/Reportes/vCobroCxC.aspx">Cobros</a></li>
+                                <li><a href="/ControlPanel/Reportes/vTransferencias.aspx">Transferencia</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ayuda <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="first"><a href="#">Sobre Nosotros</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li class="first"><a href="/vMision.aspx">Mision</a></li>
+                                <li class="first"><a href="/vVision.aspx">Vision</a></li>
+                                <li class="first"><a href="/vHistoria.aspx">Historia</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Acerca de </a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <div style="margin-top: 15px; margin-right: 5px;">
+                                <asp:Label ID="LabelDes" runat="server" Text="Usuario" Font-Bold="True" ForeColor="White"></asp:Label>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div style="width: 131px; height: 33px; margin-top: 9px; border-radius: 6px; background-color: #FFFFFF; text-align: center; float: right; margin-right: 5px;">
+                                <div style="margin-top: 7px;">
+
+                                    <asp:Label ID="Labelusu" runat="server" Font-Bold="True" Font-Italic="False" Font-Size="12pt" ForeColor="Black"></asp:Label>
+
+                                </div>
+
+                            </div>
+
+                        </li>
+                        <li>
+                            <div style="width: 131px; float: right; margin-top: 9px;">
+                                <asp:Button ID="btnInicio" runat="server" class="btn btn-success" Text="Inicio Session" Width="127px" OnClick="btnInicio_Click" CausesValidation="False" />
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <div class="panel-footer" style="background-color: #000000;">
+            <div class="container" style="margin-left: 50%; height: 40px; width: 120px;">
+                <div id="face" style="height: 32px; margin-left: 80px;"><a href="https://www.facebook.com/finanzasjoaf" class="icono-facebook"></a></div>
+                <div id="twit" style="height: 32px; margin-left: 40px"><a href="https://twitter.com/FinanzasJOAF" class="icono-twitter"></a></div>
+                <div id="plus" style="height: 32px; margin-right: 80px"><a href="https://plus.google.com/u/0/?hl=en" class="icono-gplus"></a></div>
+            </div>
+            <p style="margin-top: 50px; text-align: center;">&nbsp;Copyright © 2013-2015 finanzasjoaf.com Todos los derechos reservados. Templante Desings by joafSystems 809-5880-8596</p>
+        </div>
+
+    </form>
+    <link href="/Css/styles.css" rel="stylesheet" />
+    <link href="/Css/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/Scripts/toastr.min.js"></script>
+    <script src="/Scripts/jquery-2.1.4.min.js"></script>
+    <link href="/Css/Bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="/Scripts/JavaScript1.js"></script>
+    <link href="/icono.mini.css" rel="stylesheet" />
+</body>
+</html>

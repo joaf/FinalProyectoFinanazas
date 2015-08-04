@@ -1,0 +1,5 @@
+e:\visual studio 2013\Projects\Finanzas\DAL\bin\Debug\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\DAL\bin\Debug\DAL.pdb
+e:\visual studio 2013\Projects\Finanzas\DAL\obj\Debug\DAL.dll
+e:\visual studio 2013\Projects\Finanzas\DAL\obj\Debug\DAL.pdb
+e:\visual studio 2013\Projects\Finanzas\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
